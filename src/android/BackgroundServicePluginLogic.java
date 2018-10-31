@@ -160,7 +160,8 @@ public class BackgroundServicePluginLogic {
 					(data.get(0) instanceof String) &&
 					(data.getString(0).length() > 0)) {
 
-				String serviceName = data.getString(0);
+				//String serviceName = data.getString(0);
+                                String serviceName = "com.red_folder.phonegap.plugin.backgroundservice.BackgroundService.MyService";
 				
 				Log.d(TAG, "Finding servicename " + serviceName);
 				
